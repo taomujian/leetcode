@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-class Two_Sum:
+class Solution:
 
     def get_data(self, elem):
         """
@@ -13,7 +13,7 @@ class Two_Sum:
         result = elem[1]
         return result
 
-    def run(self, nums, target):
+    def twoSum(self, nums, target):
         """
         寻找数组中二个元素之和为目标的元素的索引
         
@@ -42,6 +42,6 @@ class Two_Sum:
         
 
 if __name__ == "__main__":
-    two_sum = Two_Sum()
-    print(two_sum.run([3, 2, 4], 6))
+    solution = Solution()
+    print(solution.twoSum([3, 2, 4], 6))
 
