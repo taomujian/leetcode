@@ -7,6 +7,7 @@ class Solution:
         获取元组的最后一个元素
         
         :param tuple elem:  要寻找的元组
+        
         :return int result: 元组的最后一个元素
         """
         
@@ -19,6 +20,7 @@ class Solution:
         
         :param list nums: 要寻找的数组
         :param int target: 目标值
+
         :return list result: 数组中二个元素之和为目标的元素的索引列表
         """
 
