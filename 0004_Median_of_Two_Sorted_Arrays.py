@@ -5,6 +5,7 @@ import sys
 class Solution(object):
 
     def findMedianSortedArrays(self, nums1, nums2):
+        
         '''
         给2个有序数组,把二个数组组成新的有序数组,并计算这个新数组中间二个元素的平均值,但其实并没有把这二个数组组合成新数组,只是抽象的想象成为一个新数组
 

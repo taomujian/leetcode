@@ -2,6 +2,7 @@
 
 class ListNode:
     def __init__(self, val):
+
         '''
         初始化一个单链表结点
 
@@ -16,6 +17,7 @@ class ListNode:
 class Solution:
 
     def addTwoNumbers(self, l1, l2):
+        
         '''
         完成2个链表的相加,并倒序输出
 

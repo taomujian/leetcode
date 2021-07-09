@@ -3,6 +3,7 @@
 class Solution(object):
 
     def lengthOfLongestSubstring(self, s):
+        
         '''
         从字符串里找出来一个没有重复字符的最大字符串,并返回这个最大字符串的长度
 

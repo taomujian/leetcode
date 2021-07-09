@@ -3,6 +3,7 @@
 class Solution(object):
 
     def longestPalindrome(self, s):
+        
         '''
         找出一个字符串的最大长度的回文字符串
 
